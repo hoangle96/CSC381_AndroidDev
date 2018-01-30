@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Potato</string>
+    <string-array name="toppings">
+        <item>Nothing</item>
+        <item>Butter</item>
+        <item>Sour Cream</item>
+        <item>Chili</item>
+    </string-array>
+</resources>
