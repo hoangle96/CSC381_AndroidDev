@@ -5,13 +5,13 @@ Contains all the labs for La Salle University CSC 381: Mobile Programming on And
 ## Getting Started
 
 * Lab 1: Hello World
-* Lab 2: Potato - basic [Spinner] (https://developer.android.com/reference/android/widget/Spinner.html)
-* Lab 3: [Seekbar] (https://developer.android.com/reference/android/widget/SeekBar.html)
+* Lab 2: Potato - basic [Spinner](https://developer.android.com/reference/android/widget/Spinner.html)
+* Lab 3: [Seekbar](https://developer.android.com/reference/android/widget/SeekBar.html)
 * Lab 4: Book - basic image and DrawableResources
 
 ## Built With
 
-* [Android Studio]https://developer.android.com/studio/index.html) - IDE
+* [Android Studio](https://developer.android.com/studio/index.html) - IDE
 
 ## Authors
 
