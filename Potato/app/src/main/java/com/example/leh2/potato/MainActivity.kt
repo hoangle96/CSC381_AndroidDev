@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
                 topping == "Nothing" -> calorie = 0
                 topping == "Butter" -> calorie = 100
                 topping == "Sour Cream" -> calorie = 60
-                topping == "Chilli" -> calorie = 75
+                topping == "Chili" -> calorie = 75
             }
             val res = calFromSize+calorie
             txtRes.text= res.toString()

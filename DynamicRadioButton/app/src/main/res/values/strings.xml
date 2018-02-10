@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DynamicRadioButton</string>
+    <string-array name="thickness">
+        <item>1.0</item>>
+        <item>1.25</item>>
+        <item>1.5</item>>
+        <item>1.75</item>
+        <item>2.0</item>
+    </string-array>
+    <string-array name="doneness">
+        <item>Rare</item>>
+        <item>Medium Rare</item>>
+        <item>Medium</item>>
+        <item>Medium Well</item>
+        <item>Well-done</item>
+    </string-array>
+</resources>

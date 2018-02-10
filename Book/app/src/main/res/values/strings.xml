@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Book</string>
+    <string-array name='title'>
+        <item>Artemis</item>
+        <item>Astrophysics For People In A Hurry</item>
+        <item>Fantastic Beasts</item>
+        <item>How To Be Bawse</item>
+        <item>Into The Water</item>
+        <item>Little Fires Everywhere</item>
+        <item>Radium Girls</item>
+        <item>Sleeping Beauties</item>
+        <item>Talking As Fast As I Can</item>
+        <item>The Pioneer Woman Cooks</item>
+        <item>What Happened</item>
+    </string-array>
+    <string-array name='author'>
+        <item>Andy Weir</item>
+        <item>Neil deGrasse Tyson</item>
+        <item>J. K. Rowling</item>
+        <item>Lilly Singh</item>
+        <item>Paula Hawkins</item>
+        <item>Celeste Ng</item>
+        <item>Kate Moore</item>
+        <item>Stephen King - Owen King</item>
+        <item>Lauren Graham</item>
+        <item>Ree Drummond</item>
+        <item>Hillary Rodham Clinton</item>
+    </string-array>
+    <string-array name='genre'>
+        <item>Science Fiction</item>
+        <item>Science and Technology</item>
+        <item>Fantasy</item>
+        <item>Nonfiction</item>
+        <item>Mystery and Thriller</item>
+        <item>Fiction</item>
+        <item>History and Biography</item>
+        <item>Horror</item>
+        <item>Humor</item>
+        <item>Food and Cookbooks</item>
+        <item>Memoir and Autobiography</item>
+    </string-array>
+</resources>
