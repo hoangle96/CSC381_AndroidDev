@@ -1,0 +1,104 @@
+{
+"sites":
+[
+{
+"name":"Stonehenge",
+"city":"Wiltshire",
+"country":"England",
+"description":"One of the most famous sites in the world, Stonehenge is the remains of a ring of standing stones set within earthworks. It is in the middle of the most dense complex of Neolithic and Bronze Age monuments in England, including several hundred burial mounds.",
+"image":"Stonehenge.jpg",
+"map":"Wiltshire_map.jpg",
+"youtube":"yP2DlTwQuIY"
+},
+{
+"name":"Colosseum",
+"city":"Rome",
+"country":"Italy",
+"description":"The Colosseum, also known as the Flavian Amphitheatre, is an oval amphitheatre in the centre of the city of Rome, Italy. Built of concrete and sand, it is the largest amphitheatre ever built and is considered one of the greatest works of architecture and engineering ever.",
+"image":"Colosseum.jpg",
+"map":"Roma_Plan.jpg",
+"youtube":"x1bZuVdfP7I"
+},
+{
+"name":"Catacombs of Kom el Shoqafa",
+"city":"Alexandria",
+"country":"Egypt",
+"description":"The necropolis consists of a series of Alexandrian tombs, statues and archaeological objects of the Pharaonic funeral cult with Hellenistic and early Imperial Roman influences. Due to the time period, many of the features of the catacombs of Kom el Shoqafa merge Roman, Ancient Macedonian, Greek and Egyptian cultural points; some statues are Egyptian in style, yet bear Roman clothes and hair style whilst other features share a similar style.",
+"image":"catacombs.jpg",
+"map":"Egypt_location_map.png",
+"youtube":"x6TUSOniiNc"
+},
+{
+"name":"Great Wall of China",
+"city":"Jinshanling",
+"country":"China",
+"description":"The Great Wall of China is a series of fortifications made of stone, brick, tamped earth, wood, and other materials, generally built along an east-to-west line across the historical northern borders of China to protect the Chinese states and empires against the raids and invasions of the various nomadic groups of the Eurasian Steppe",
+"image":"The_Great_Wall_of_China.jpg",
+"map":"220px-Map_of_the_Great_Wall_of_China.jpg",
+"youtube":"VjlydnRqcmw"
+},
+{
+"name":"Porcelain Tower of Nanjing",
+"city":"Nanjing",
+"country":"China",
+"description":"The Porcelain Tower (or Pagoda) of Nanjing (part of the former Bao'en Temple (literally: 'Temple of Repaid Gratitude'), is a historical site located on the south bank of external Qinhuai River in Nanjing, China. It was a pagoda constructed in the 15th century during the Ming Dynasty, but was mostly destroyed in the 19th century during the course of the Taiping Rebellion. In 2010 Wang Jianlin, a Chinese businessman, donated a billion yuan (US$156 million) to the city of Nanjing for its reconstruction.",
+"image":"PorcelainTower.jpg",
+"map":"China_edcp_location_map.png",
+"youtube":"n0RcIsJOspQ"
+},
+{
+"name":"Hagia Sophia",
+"city":"Istanbul",
+"country":"Turkey",
+"description":"Hagia Sophia is a former Christian patriarchal basilica (church), later an imperial mosque, and now a museum in Istanbul, Turkey. From the date of its construction in 537 until 1453, it served as a Greek Orthodox cathedral and seat of the Patriarch of Constantinople, except between 1204 and 1261, when it was converted to a Roman Catholic cathedral under the Latin Empire.",
+"image":"Hagia_Sophia_Mars_2013.jpg",
+"map":"Location_map_Istanbul.png",
+"youtube":"aOExHX45jLQ"
+},
+{
+"name":"Leaning Tower of Pisa",
+"city":"Pisa",
+"country":"Italy",
+"description":"The Leaning Tower of Pisa or simply the Tower of Pisa is the campanile, or freestanding bell tower, of the cathedral of the Italian city of Pisa, known worldwide for its unintended tilt.",
+"image":"The_Leaning_Tower_of_Pisa_SB.jpeg.jpeg",
+"map":"250px-Italy_provincial_location_map.png",
+"youtube":"mBK22z8y4KY"
+},
+{
+"name":"Cairo Citadel",
+"city":"cairo",
+"country":"Egypt",
+"description":"he Saladin Citadel of Cairo is a medieval Islamic fortification in Cairo, Egypt. The location, on Mokattam hill near the center of Cairo, was once famous for its fresh breeze and grand views of the city. It is now a preserved historic site, with mosques and museums.",
+"image":"cairoCitadel.jpg",
+"map":"250px-Egypt_location_map.png",
+"youtube":"GAzdmR56l8o"
+},
+{
+"name":"Ely Cathedral",
+"city":"Ely",
+"country":"England",
+"description":"Ely Cathedral, has its origins in 672AD when St Etheldreda built an Abbey Church. The present building dates back to 1083, and cathedral status was granted it in 1109. Until the reformation it was the Church of St Etheldreda and St Peter, at which point it was refounded as the Cathedral Church of the Holy and Undivided Trinity of Ely, continuing as the principal church of the Diocese of Ely, in Cambridgeshire, England.",
+"image":"Ely_Cathedral.jpg",
+"map":"250px-Cambridgeshire_UK_location_map.png",
+"youtube":"Ep-LYrBdHsE"
+},
+{
+"name":"Taj Mahal",
+"city":"Agra",
+"country":"India",
+"description":"The Taj Mahal is a white marble mausoleum located on the southern bank of the Yamuna River in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned 1628–1658) to house the tomb of his favorite wife of three, Mumtaz Mahal.",
+"image":"270px-Taj_Mahal_in_March_2004.jpg",
+"map":"India_location_map.png",
+"youtube":"RZy25C1qo4Y"
+},
+{
+"name":"Cluny Abbey",
+"city":"Cluny",
+"country":"France",
+"description":"Cluny Abbey, dedicated to St Peter, is a former Benedictine monastery in Cluny, Saône-et-Loire, France. It was built in the Romanesque style, with three churches built in succession from the 10th to the early 12th centuries.",
+"image":"250px-Cluny-Abtei-Ostfluegel-mtob.jpg",
+"map":"France_location_map-Regions_and_departements-2015.png",
+"youtube":"Rz_SVYd9aCU"
+}
+]
+}

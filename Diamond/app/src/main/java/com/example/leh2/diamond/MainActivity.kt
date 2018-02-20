@@ -53,15 +53,5 @@ class MainActivity : AppCompatActivity() {
             res = 0.0
             tvRes.text = ""
         })
-
-
-
-
-
-
-
-
-
-
     }
 }
