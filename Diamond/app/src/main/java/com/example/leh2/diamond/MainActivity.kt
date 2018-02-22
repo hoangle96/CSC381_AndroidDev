@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
 import android.widget.Toast.LENGTH_LONG
+import java.lang.Double.isNaN
 
 class MainActivity : AppCompatActivity() {
 
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         val tvRes = findViewById<TextView>(R.id.tvRes)
         val caratEditable = findViewById<EditText>(R.id.eTCarat)
         val carat = caratEditable.text.toString().toDouble()
-        if(carat.equals(0)){
+        if(isNaN(carat)){
             Toast.makeText(applicationContext, "Please enter a value for carat" , LENGTH_LONG).show()
         }
 
@@ -24,9 +25,14 @@ class MainActivity : AppCompatActivity() {
         val rGClarity = findViewById<RadioGroup>(R.id.rGClarity)
 
         val colorID = rGColor.checkedRadioButtonId
-        val color = colorID + 1
+        val color = colorID
         val clarityID = rGClarity.checkedRadioButtonId
-        val clarity = clarityID + 1
+        val clarity = clarityID - 4
+
+        val tvColor = findViewById<TextView>(R.id.tvColor)
+        tvColor.text = color.toString()
+        val tvClarity = findViewById<TextView>(R.id.tvClarity)
+        tvClarity.text = clarity.toString()
 
         if(colorID==-1){
             //if no radio button selected

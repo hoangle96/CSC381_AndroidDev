@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pho</string>
+    <string-array name="Address">
+        <item>253436 Kensington Ave, Philadelphia, PA 19125</item>
+        <item>907 Race St, Philadelphia, PA 19107</item>
+        <item>1000 Arch St, Philadelphia, PA 19107</item>
+        <item>600 Washington Ave, Philadelphia, PA 19147</item>
+    </string-array>
+    <string-array name="phone">
+        <item>(215) 425 0078</item>
+        <item>(215) 627 8883</item>
+        <item>(215) 629 1888</item>
+        <item>(215) 599 0264</item>
+    </string-array>
+    <string-array name="name">
+        <item>Thang Long Noodle Restaurant</item>
+        <item>Pho Xe Lua</item>
+        <item>Pho Cali</item>
+        <item>Pho Ha</item>
+    </string-array>
+    <string-array name="picName">
+        <item>thanglongnoodlerestaurant</item>
+        <item>phoxelua</item>
+        <item>phocali</item>
+        <item>phoha</item>
+    </string-array>
+</resources>

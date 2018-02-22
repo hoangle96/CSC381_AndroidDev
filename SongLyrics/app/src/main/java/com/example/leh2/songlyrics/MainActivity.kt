@@ -26,8 +26,6 @@ class MainActivity : AppCompatActivity() {
         var i = 0
         while(i < 5) {
             val filename = "lyrics"+i.toString()
-
-            //
             val ins = resources.openRawResource(resources.getIdentifier(filename, "raw", packageName))
 
 
