@@ -2,7 +2,6 @@ package com.example.leh2.cookingsteak
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.*
 import android.widget.Toast.*
 
@@ -25,24 +24,15 @@ class MainActivity : AppCompatActivity() {
             val radioDone = radGrpDone.checkedRadioButtonId
             val tvDone = findViewById<TextView>(R.id.textViewdoneness)
 
-//
             val radioSize = radGrpSize.checkedRadioButtonId
             val tvSize = findViewById<TextView>(R.id.textViewsize)
             val radioButtonSize = findViewById<RadioButton>(radioSize)
-
-//            Toast.makeText(applicationContext, radioSize.toString(), Toast.LENGTH_LONG).show()
-
-
-
-
-//            size = radGrpSize.checkedRadioButtonId.toDouble()
 
             size = radioButtonSize.text.toString().toDouble()
             tvSize.text = size.toString()
 
             val donenessIndex = radioDone - 6
             tvDone.text = donenessIndex.toString()
-           // Toast.makeText(applicationContext, size.toString() , LENGTH_LONG).show()
 
             res = 2 + donenessIndex + size * 2
             if(radioDone==-1){
@@ -58,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             tvRes.text = res.toString()
         })
 
-        radGrpDone.setOnCheckedChangeListener({ _, checkedId ->
+        radGrpDone.setOnCheckedChangeListener({ _, _ ->
             res = 0.0
             tvRes.text = ""
         } )
