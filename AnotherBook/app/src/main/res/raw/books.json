@@ -1,0 +1,69 @@
+{
+  "books": [{
+    "title": "Artemis",
+    "author": "Andy Weir",
+    "genre": "Science Fiction",
+    "cover": "https://images.gr-assets.com/books/1494273579l/34928122.jpg"
+  },
+    {
+      "title": "Astrophysics For People In A Hurry",
+      "author": "Neil de Grasse Tyson",
+      "genre": "Science and Technology",
+      "cover": "https://images.gr-assets.com/books/1479535337l/32191710.jpg"
+    },
+    {
+      "title": "Fantastic Beasts",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "cover": "https://images.gr-assets.com/books/1481542648l/29363501.jpg"
+    },
+    {
+      "title": "How To Be Bawse",
+      "author": "Lilly Singh",
+      "genre": "Nonfiction",
+      "cover": "https://images.gr-assets.com/books/1475608021l/31202835.jpg"
+    },
+    {
+      "title": "Into The Water",
+      "author": "Paula Hawkins",
+      "genre": "Mystery and Thriller",
+      "cover": "https://images.gr-assets.com/books/1494055413l/33151805.jpg"
+    },
+    {
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "genre": "Fiction",
+      "cover": "https://images.gr-assets.com/books/1490351351l/34273236.jpg"
+    },
+    {
+      "title": "Radium Girls",
+      "author": "Kate Moore",
+      "genre": "History and Biography",
+      "cover": "https://images.gr-assets.com/books/1496007867l/31409135.jpg"
+    },
+    {
+      "title": "Sleeping Beauties",
+      "author": "Stephen King - Owen King",
+      "genre": "Horror",
+      "cover": "https://images.gr-assets.com/books/1510335748l/34466922.jpg"
+    },
+    {
+      "title": "Talking As Fast As I Can",
+      "author": "Lauren Graham",
+      "genre": "Humor",
+      "cover": "https://images.gr-assets.com/books/1492797634l/30253864.jpg"
+    },
+    {
+      "title": "The Pioneer Woman Cooks",
+      "author": "Ree Drummond",
+      "genre": "Food and Cookbooks",
+      "cover": "https://images.gr-assets.com/books/1496928385l/34016988.jpg"
+    },
+    {
+      "title": "What Happened",
+      "author": "Hillary Rodham Clinton",
+      "genre": "Memoir and Autobiography",
+      "cover": "https://images.gr-assets.com/books/1503366034l/34138013.jpg"
+    }
+  ]
+}

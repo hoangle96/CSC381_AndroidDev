@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
             tvDone.text = donenessIndex.toString()
 
             res = 2 + donenessIndex + size * 2
+            
             if(radioDone==-1){
                 Toast.makeText(applicationContext, "Please select a doneness level" , LENGTH_LONG).show()
                 res = 0.0

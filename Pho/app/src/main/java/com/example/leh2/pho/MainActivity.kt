@@ -4,6 +4,12 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.*
+import org.w3c.dom.Text
+import android.widget.TextView
+import android.widget.ScrollView
+import android.text.method.ScrollingMovementMethod
+import java.io.IOException
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,8 +28,10 @@ class MainActivity : AppCompatActivity() {
         val tvAddress = findViewById<TextView>(R.id.tvAddress)
         val tvPhone = findViewById<TextView>(R.id.tvPhone)
         val tvReview = findViewById<TextView>(R.id.tvReview)
+        tvReview.movementMethod = ScrollingMovementMethod()
         val sbReview = findViewById<SeekBar>(R.id.seekBar)
         val img = findViewById<ImageView>(R.id.imageView)
+        val tvRate = findViewById<TextView>(R.id.tvRate)
 
         spPho.adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, resources.getStringArray(R.array.name))
         spPho.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {//fix "object is not abstract" https://www.youtube.com/watch?v=D5l7MNlqA3M
@@ -35,11 +43,16 @@ class MainActivity : AppCompatActivity() {
                 tvAddress.text = address[p2].toString()
                 tvPhone.text = phoneNumber[p2]
                 val filename = picName[p2].toString()
-                val ins = resources.openRawResource(resources.getIdentifier(filename, "raw", packageName))
-                val inputAsString = ins.bufferedReader().use { it.readText() }
-                tvReview.text = inputAsString
-                val id = img.context.resources.getIdentifier(filename, "drawable", img.context.packageName)
-                img.setImageResource(id)
+                try {
+                    val ins = resources.openRawResource(resources.getIdentifier(filename, "raw", packageName))
+                    val inputAsString = ins.bufferedReader().use { it.readText() }
+                    tvReview.text = inputAsString
+                    val id = img.context.resources.getIdentifier(filename, "drawable", img.context.packageName)
+                    img.setImageResource(id)
+                }
+                catch (e: IOException){
+                    Toast.makeText(applicationContext, "Problem reading file ", Toast.LENGTH_LONG).show();
+                }
             }
         }
 
@@ -56,6 +69,7 @@ class MainActivity : AppCompatActivity() {
             override fun onStopTrackingTouch(seekBar: SeekBar) {
                 // Write code to perform some action when touch is stopped.
                 // Toast.makeText(this@MainActivity, "Current value is " + seekBar.progress, Toast.LENGTH_SHORT).show()
+                tvRate.text = seekBar.progress.toString()
                 if(seekBar.progress < 40){
                     Toast.makeText(this@MainActivity, "Sorry to hear", Toast.LENGTH_SHORT).show()
                 }
