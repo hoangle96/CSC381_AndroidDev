@@ -8,6 +8,7 @@ import org.json.JSONObject
 import org.json.JSONException
 import android.content.Intent
 import android.net.Uri
+import android.text.method.ScrollingMovementMethod
 
 
 class MainActivity : AppCompatActivity() {
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val tvCity = findViewById<TextView>(R.id.tvCity)
         val tvCountry = findViewById<TextView>(R.id.tvCountry)
         val tvDes = findViewById<TextView>(R.id.tvDes)
+        tvDes.movementMethod = ScrollingMovementMethod()
         val btnShow = findViewById<Button>(R.id.btnShow)
         val spSite = findViewById<Spinner>(R.id.spSite)
         val imgMap = findViewById<ImageView>(R.id.imgMap)
