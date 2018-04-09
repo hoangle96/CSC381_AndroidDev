@@ -54,9 +54,8 @@ class MainActivity : AppCompatActivity() {
                 tvGenre.text = JSONArray.getJSONObject(i).getString("genre")
 
                 val imgURL = JSONArray.getJSONObject(i).getString("cover")
-                loadImageFromUrl(imgURL);
+                loadImageFromUrl(imgURL)
             }
-
         }
     }
 
@@ -67,9 +66,9 @@ class MainActivity : AppCompatActivity() {
             override fun onSuccess() {
 
             }
-                override fun onError() {
+            override fun onError() {
 
-                    }
-                })
+            }
+        })
     }
 }
