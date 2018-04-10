@@ -8,13 +8,14 @@ class MainActivity : AppCompatActivity() {
     var price = 0.0
     var order = ""
     lateinit var tvOrder: TextView
+    lateinit var btnCalc: Button
     var side = ArrayList<String>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnCalc = findViewById<Button>(R.id.btcCalc)
+        btnCalc = findViewById<Button>(R.id.btcCalc)
         val tvPrice = findViewById<TextView>(R.id.tvPrice)
         tvOrder = findViewById<TextView>(R.id.tvOrder)
 
@@ -74,9 +75,11 @@ class MainActivity : AppCompatActivity() {
                 price += 3.79
                 order += ", fries \n"
             }
+
             for (item in side){
                 order += item + "\n"
             }
+
             tvOrder.append(order)
 //            tvOrder.append(side.toString())
             tvPrice.text = price.toString()
@@ -89,5 +92,6 @@ class MainActivity : AppCompatActivity() {
         } else {
             side.remove(buttonView.text.toString())
         }
+        btnCalc.performClick()
     }
 }
