@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<root>-->
+   <books>
+      <element>
+         <author>Andy Weir</author>
+         <cover>https://images.gr-assets.com/books/1494273579l/34928122.jpg</cover>
+         <genre>Science Fiction</genre>
+         <title>Artemis</title>
+      </element>
+      <element>
+         <author>Neil de Grasse Tyson</author>
+         <cover>https://images.gr-assets.com/books/1479535337l/32191710.jpg</cover>
+         <genre>Science and Technology</genre>
+         <title>Astrophysics For People In A Hurry</title>
+      </element>
+      <element>
+         <author>J. K. Rowling</author>
+         <cover>https://images.gr-assets.com/books/1481542648l/29363501.jpg</cover>
+         <genre>Fantasy</genre>
+         <title>Fantastic Beasts</title>
+      </element>
+      <element>
+         <author>Lilly Singh</author>
+         <cover>https://images.gr-assets.com/books/1475608021l/31202835.jpg</cover>
+         <genre>Nonfiction</genre>
+         <title>How To Be Bawse</title>
+      </element>
+      <element>
+         <author>Paula Hawkins</author>
+         <cover>https://images.gr-assets.com/books/1494055413l/33151805.jpg</cover>
+         <genre>Mystery and Thriller</genre>
+         <title>Into The Water</title>
+      </element>
+      <element>
+         <author>Celeste Ng</author>
+         <cover>https://images.gr-assets.com/books/1490351351l/34273236.jpg</cover>
+         <genre>Fiction</genre>
+         <title>Little Fires Everywhere</title>
+      </element>
+      <element>
+         <author>Kate Moore</author>
+         <cover>https://images.gr-assets.com/books/1496007867l/31409135.jpg</cover>
+         <genre>History and Biography</genre>
+         <title>Radium Girls</title>
+      </element>
+      <element>
+         <author>Stephen King - Owen King</author>
+         <cover>https://images.gr-assets.com/books/1510335748l/34466922.jpg</cover>
+         <genre>Horror</genre>
+         <title>Sleeping Beauties</title>
+      </element>
+      <element>
+         <author>Lauren Graham</author>
+         <cover>https://images.gr-assets.com/books/1492797634l/30253864.jpg</cover>
+         <genre>Humor</genre>
+         <title>Talking As Fast As I Can</title>
+      </element>
+      <element>
+         <author>Ree Drummond</author>
+         <cover>https://images.gr-assets.com/books/1496928385l/34016988.jpg</cover>
+         <genre>Food and Cookbooks</genre>
+         <title>The Pioneer Woman Cooks</title>
+      </element>
+      <element>
+         <author>Hillary Rodham Clinton</author>
+         <cover>https://images.gr-assets.com/books/1503366034l/34138013.jpg</cover>
+         <genre>Memoir and Autobiography</genre>
+         <title>What Happened</title>
+      </element>
+   </books>
+<!--</root>-->

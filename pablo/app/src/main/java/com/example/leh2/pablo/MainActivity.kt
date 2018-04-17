@@ -2,6 +2,7 @@ package com.example.leh2.pablo
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AlertDialog
 import android.util.Log
 import android.view.View
 import android.widget.*
@@ -26,12 +27,10 @@ class MainActivity : AppCompatActivity() {
         lateinit var year: Array<String?>
         lateinit var size: Array<String?>
         lateinit var artist: Array<String?>
-        lateinit var style: Array<String?>
+        val style = mutableListOf<String>()
         lateinit var image: Array<String?>
 
-        var styleName: String?
-
-
+        var styleName = "style"
 
         val sp = findViewById<Spinner>(R.id.spinner)
         imgView = findViewById(R.id.imageView)
@@ -50,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                         year = arrayOfNulls(array.length())
                         size = arrayOfNulls(array.length())
                         artist = arrayOfNulls(array.length())
-                        style = arrayOfNulls(array.length())
+//                        val style = mutableListOf<String>()
 
                         for (i in 0 until array.length()) {
                             val aJSONElement = array.getJSONObject(i)
@@ -59,10 +58,10 @@ class MainActivity : AppCompatActivity() {
                             year[i] = aJSONElement.getString("year")
                             size[i] = aJSONElement.getString("size")
                             artist[i] = aJSONElement.getString("location")
-                            style[i] = aJSONElement.getString("style")
+                            style.add(aJSONElement.getString("style"))
                             image[i] = aJSONElement.getString("image")
                         }
-                        sp.adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, title)
+
                     } catch (e: IOException) {
                     }
                 },
@@ -70,8 +69,9 @@ class MainActivity : AppCompatActivity() {
                     Log.d(error.toString(), "There is some error")
                 })
         requestQueue.add(request)
+        sp.adapter = ArrayAdapter(this, R.layout.support_simple_spinner_dropdown_item, title)
 
-        sp.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+        /*sp.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onNothingSelected(p0: AdapterView<*>?) {
 
             }
@@ -84,16 +84,22 @@ class MainActivity : AppCompatActivity() {
                 styleName = style[i]
                 val imgURL = image[i]
                 loadImageFromUrl(imgURL)
-
-                btn.setOnClickListener({
-                    val a = styleName.replace("\\s","").toLowerCase()
-
-
-
-
-                })
             }
-        }
+        }*/
+
+//        btn.setOnClickListener({
+//            val filename = styleName.trim().toLowerCase()
+//            val ins = resources.openRawResource(resources.getIdentifier(filename, "raw", packageName))
+//            val inputAsString = ins.bufferedReader().use { it.readText() }
+//
+//            val alertDialog = AlertDialog.Builder(this@MainActivity).create()
+//            alertDialog.setTitle("How to cook this dish?")
+//            alertDialog.setMessage(inputAsString)
+//            alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK") { dialog, _ ->
+//                dialog.dismiss()
+//            }
+//            alertDialog.show()
+//        })
     }
     private fun loadImageFromUrl(imgURL: String?) {
         Picasso.with(this).load(imgURL).placeholder(R.mipmap.ic_launcher)
