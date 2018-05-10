@@ -25,17 +25,13 @@ class Calculator : Fragment() {
         val btnShow = myView.findViewById<Button>(R.id.btnShow)
         val inputHr = myView.findViewById<EditText>(R.id.inputTxtHr)
         val inputRate = myView.findViewById<EditText>(R.id.inputTxtRate)
-//        val etHour = findViewById<EditText>(R.id.editTxtHr)
-//        val etRate = findViewById<EditText>(R.id.editTxtRate)
         val txtView = myView.findViewById<TextView>(R.id.txtView)
 
         val savedHour = sp.getFloat("hour", 0f)
         val savedRate = sp.getFloat("rate", 0f)
-//        val savedSalary = sp.getInt("salary", 0)
 
         inputHr.setText("" + savedHour)
         inputRate.setText("" + savedRate)
-//        txtView.text = "" + savedSalary
 
         btnShow.setOnClickListener{
             val hour = inputHr.text.toString().toFloat()
@@ -54,7 +50,6 @@ class Calculator : Fragment() {
 
             editor.putFloat("hour", hour)
             editor.putFloat("rate", rate)
-//            editor.putFloat("salary", result)
 
             editor.apply()
         }
@@ -82,9 +77,6 @@ class Calculator : Fragment() {
             override fun onTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
             }
         })
-
-
-
         return myView
     }
 }
